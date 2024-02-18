@@ -8,7 +8,7 @@ import processMessage from '../Utils/process-message'
 import { BinaryNode, getBinaryNodeChild, getBinaryNodeChildren, jidNormalizedUser, reduceBinaryNodeToDictionary, S_WHATSAPP_NET } from '../WABinary'
 import { makeSocket } from './socket'
 
-const MAX_SYNC_ATTEMPTS = 2
+const MAX_SYNC_ATTEMPTS = 3
 
 export const makeChatsSocket = (config: SocketConfig) => {
 	const {
